@@ -1,0 +1,16 @@
+import java.lang.Math;
+public class rollDie;
+class rollDie
+{
+    public static void main(String args[])
+    {
+        int min = 1;
+        int max = 6;
+        int range = 6;
+        for (int = 0; i < 20; i++)
+        {
+            int random = (int)(Math.random() * range) + min;
+            System.out.println("Roll" + random + " = " random);
+        }
+    }
+}
